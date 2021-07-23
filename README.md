@@ -16,7 +16,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "mediabeastnz/omnipay-laybuy": "~2.0"
+        "mediabeastnz/omnipay-laybuy": "~3.0"
     }
 }
 ```
