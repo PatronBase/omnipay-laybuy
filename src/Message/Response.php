@@ -54,4 +54,11 @@ class Response extends AbstractResponse
         return null;
 
     }
+
+    public function getToken()
+    {
+        if (isset($this->data['token'])) {
+            return $this->data['token'];
+        }
+    }
 }
